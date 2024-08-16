@@ -22,7 +22,8 @@ jobs:
       run: |
         sudo apt update
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install requests
+        pip install json
 
     - name: Configure software
       run: | 
